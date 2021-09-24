@@ -1,0 +1,16 @@
+{
+    "Welcome_channel" : 889852944185442365,
+    "Leave_channel" : 889852978268364800,
+    "State_channel" : 889859748655136768,
+
+    "fish.jpg" : "C:\\Users\\zongy.DESKTOP-HL7MNBD\\Documents\\GitHub\\ZU__bot\\picture\\fish.jpg",
+    "teacher.png" : "C:\\Users\\zongy.DESKTOP-HL7MNBD\\Documents\\GitHub\\ZU__bot\\picture\\teacher.png",
+    "bird.gif" : "C:\\Users\\zongy.DESKTOP-HL7MNBD\\Documents\\GitHub\\ZU__bot\\picture\\bird.gif",
+    "sharks" : ["C:\\Users\\zongy.DESKTOP-HL7MNBD\\Documents\\GitHub\\ZU__bot\\picture\\shark1.jpg",
+                    "C:\\Users\\zongy.DESKTOP-HL7MNBD\\Documents\\GitHub\\ZU__bot\\picture\\shark2.jpg",
+                    "C:\\Users\\zongy.DESKTOP-HL7MNBD\\Documents\\GitHub\\ZU__bot\\picture\\shark3.jpg",
+                    "C:\\Users\\zongy.DESKTOP-HL7MNBD\\Documents\\GitHub\\ZU__bot\\picture\\shark4.png",
+                    "C:\\Users\\zongy.DESKTOP-HL7MNBD\\Documents\\GitHub\\ZU__bot\\picture\\shark5.jpg"],
+
+    "Token" : "ODg5NDg2ODAxODM4OTQwMTgw.YUh9Iw.FrqzbHUKuV42nISrEr9MzCIStWY"
+}
