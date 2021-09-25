@@ -1,8 +1,0 @@
->> 宗U__bot 指令表 <<
-!command_list : 顯示指令表
-!ping : 顯示 bot 延遲
-!stop : 強制關閉 bot
-!pic_fish : 發送魚魚圖
-!pic_teacher : 發送老師圖
-!pic_bird : 發送鳥gif
-!鯊鯊 : 發送隨機鯊鯊圖
