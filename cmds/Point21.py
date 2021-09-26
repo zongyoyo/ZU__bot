@@ -88,15 +88,13 @@ class Point21(Cog_Extension):
         await ctx.send("~莊家回合結束~")
         await ctx.send("--------------")
         await ctx.send("結算")
-        pt = 0
-        bt = 0
-        pt = count("Pl")
-        bt = count("Bt")
         b = load("Bt")
-        p = load("Pl")
         await ctx.send(f"莊家牌{b}")
+        bt = count("Bt")
         await ctx.send(f"莊家點數總和{bt}")
+        p = load("Pl")
         await ctx.send(f"白家牌{p}")
+        pt = count("Pl")
         await ctx.send(f"白家點數總和{pt}")
         await ctx.send("--------------")
         
@@ -107,12 +105,11 @@ class Point21(Cog_Extension):
                 elif bt==pt:
                     await ctx.send("~和局~")
                 elif bt<pt:
-                    await ctx.send("~莊家爆牌, 白家獲勝~")
-            elif pt>21:
+                    await ctx.send("~白家獲勝~")
+            else:
                 await ctx.send("~白家爆牌, 莊家獲勝~")    
-        elif bt>21:
+        else:
             await ctx.send("~莊家爆牌, 白家獲勝~")
-
         
 
 #設定 setup 函式
